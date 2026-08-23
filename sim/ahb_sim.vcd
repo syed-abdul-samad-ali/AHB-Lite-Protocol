@@ -1,0 +1,222 @@
+$date
+	Sun Aug 23 20:15:20 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module ahb_tb $end
+$var wire 1 ! HRESP $end
+$var wire 1 " HREADY $end
+$var wire 32 # HRDATA [31:0] $end
+$var reg 32 $ HADDR [31:0] $end
+$var reg 3 % HBURST [2:0] $end
+$var reg 1 & HCLK $end
+$var reg 1 ' HRESETn $end
+$var reg 1 ( HSEL $end
+$var reg 3 ) HSIZE [2:0] $end
+$var reg 2 * HTRANS [1:0] $end
+$var reg 32 + HWDATA [31:0] $end
+$var reg 1 , HWRITE $end
+$scope module dut $end
+$var wire 32 - HADDR [31:0] $end
+$var wire 3 . HBURST [2:0] $end
+$var wire 1 & HCLK $end
+$var wire 1 ' HRESETn $end
+$var wire 1 ( HSEL $end
+$var wire 3 / HSIZE [2:0] $end
+$var wire 2 0 HTRANS [1:0] $end
+$var wire 32 1 HWDATA [31:0] $end
+$var wire 1 , HWRITE $end
+$var reg 32 2 HRDATA [31:0] $end
+$var reg 1 " HREADYOUT $end
+$var reg 1 ! HRESP $end
+$var reg 1 3 active_transfer $end
+$var reg 32 4 addr_reg [31:0] $end
+$var reg 2 5 wait_cnt [1:0] $end
+$var reg 1 6 write_reg $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+06
+b0 5
+b0 4
+03
+b0 2
+b0 1
+b0 0
+b10 /
+b0 .
+b0 -
+0,
+b0 +
+b0 *
+b10 )
+0(
+0'
+0&
+b0 %
+b0 $
+b0 #
+1"
+0!
+$end
+#5000
+1&
+#10000
+0&
+#15000
+13
+16
+b100 4
+b10 *
+b10 0
+1,
+b100 $
+b100 -
+1(
+1&
+1'
+#20000
+0&
+#25000
+03
+b10101010101110111100110011011101 +
+b10101010101110111100110011011101 1
+b0 *
+b0 0
+1&
+#30000
+0&
+#35000
+13
+06
+b10 *
+b10 0
+0,
+1&
+#40000
+0&
+#45000
+03
+b10101010101110111100110011011101 #
+b10101010101110111100110011011101 2
+b0 *
+b0 0
+1&
+#50000
+0&
+#55000
+b10 5
+0"
+13
+16
+b100000 4
+b10 *
+b10 0
+1,
+b100000 $
+b100000 -
+1&
+#60000
+0&
+#65000
+b1 5
+b10010001101000101011001111000 +
+b10010001101000101011001111000 1
+b0 *
+b0 0
+1&
+#70000
+0&
+#75000
+1"
+b0 5
+1&
+#80000
+0&
+#85000
+03
+b100000000 4
+b10 *
+b10 0
+b100000000 $
+b100000000 -
+b11 %
+b11 .
+1&
+#90000
+0&
+#95000
+13
+b100000100 4
+b10001000100010001000100010001 +
+b10001000100010001000100010001 1
+b11 *
+b11 0
+b100000100 $
+b100000100 -
+1&
+#100000
+0&
+#105000
+03
+b100001000 4
+b100010001000100010001000100010 +
+b100010001000100010001000100010 1
+b100001000 $
+b100001000 -
+1&
+#110000
+0&
+#115000
+13
+b100001100 4
+b110011001100110011001100110011 +
+b110011001100110011001100110011 1
+b100001100 $
+b100001100 -
+1&
+#120000
+0&
+#125000
+03
+b1000100010001000100010001000100 +
+b1000100010001000100010001000100 1
+b0 *
+b0 0
+1&
+#130000
+0&
+#135000
+1!
+b10 *
+b10 0
+0,
+b11111111111111111111111111111111 $
+b11111111111111111111111111111111 -
+b0 %
+b0 .
+1&
+#140000
+0&
+#145000
+0!
+b0 *
+b0 0
+1&
+#150000
+0&
+#155000
+1&
+#160000
+0&
+#165000
+1&
